@@ -1,0 +1,106 @@
+            .html {
+                 background: url(ub.png) no-repeat  fixed;
+                 background-size:100% 100%;
+                 height: :901%;
+                }
+  
+            .container {
+                width: 100%;
+                height: 100%;
+
+            }
+            .header {                
+                height: 10%;
+                border: 2px solid  red;
+                font-size: 50px;
+                color:white; 
+                background:url(ub,png);
+
+            }
+           
+            
+            .nevbar{
+                margin-top: +20px !important;/*untuk jarak dari navbar ke header.*/ 
+                border: 2px solid blue;
+                height: 10%;  
+            }
+
+            .nev{
+                list-style:none;
+                text-decoration: none;        
+                float: :left;
+
+
+            }
+            .nevbar li{
+            display:inline;/*tulisan vebarnya di dalam kotak garis solid border*/
+                }
+         .nevbar a{
+            display:inline-block;
+            padding:10px;/*untuk jagar antara item di nev bar*/
+            color:white;
+            }
+            .conten1{  margin-top: +20px !important;
+                border: 2px solid red;
+                height: 50%;
+                width: 35%;  
+                float: left;
+                margin-left:2px;/*untuk atur jarak antara konten*/
+                color: white;/*WARNA TULISAN PADA KONTEN*/
+             }
+              .conten2{ margin-top: +20px !important;
+                border: 2px solid yellow;
+                height: 92%;/*untuk tinggi*/
+                width:20%; /*untuk lebar*/ 
+                float: left;
+                margin-left:10px;/*untuk atur jarak antara konten*/
+                color: white;/*WARNA TULISAN PADA KONTEN*/
+                background-size: 30%;
+
+            }
+
+             .conten3{ margin-top: +20px !important;
+                border: 2px solid green;
+                height: 50%;
+                width: 35%;  
+                float: left;
+                margin-left:10px;/*untuk atur jarak antara konten*/
+                color: white;/*WARNA TULISAN PADA KONTEN*/
+            }
+            .footer{
+                margin-top: +700px !important;
+                border: 2px solid blue;
+                height: 5%;
+                color:white;
+                 }
+
+
+                 @media all and (max-width: 901px){
+                #header {
+                    width: 100%;
+                }
+                #menu-contents, #content-contents {
+                    float: none;
+                    width: 100%;
+                }
+                #menu-contents {
+                    height: 35px;
+                }
+                #menu-contents ul {
+                    margin: 0px;
+                }
+                #menu-contents ul li {
+                    float: left;
+                    background-color: white;
+                    font-size: 20px;
+                    border: 0px solid white;
+                    padding-left: 20px;
+                    padding-top: 5px;
+                }
+                #content {
+                    padding-top: 3px;
+                }
+                #footer{
+                     padding-top: 3px;
+                }
+            }
